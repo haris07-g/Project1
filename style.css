@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(34, 186, 247);
+    height: 80px;
+    box-shadow:2px 2px 10px rgb(109, 109, 109);
+}
+header h1{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 40px;
+    color:whitesmoke;
+}
+
+nav{
+    display: flex;
+}
+nav ul  {
+    display: flex;
+    margin-left: 500px;
+    gap: 50px;
+    list-style: none;
+
+
+}
+
+.logo img{
+  height: 80px;
+  left: 100px;
+
+}
+
+nav ul li {
+    margin-top: 20px;
+    font-size: 18px;
+    color: aliceblue;
+}
+ul li a{
+    text-decoration: none;
+    margin-top: 7px;
+    color: white;
+    font-family:"Poppins", serif ;
+}
+ul  i{
+    color: white;
+    margin-top: 24px;
+}
+ul li a:hover{
+    border: 1px solid #FFF9BF;
+    height: 20px;
+    width: 40px;
+}
+.lenstype .lensimg{
+    position: relative;
+    left: 40px;
+    top: 20px;
+    padding: 10px;
+    color:black;
+    font-size: 18px;
+
+}
+.msg{
+    border: 1px solid black;
+    height: 70px;
+    width: 70px;
+    background-color:#53b3ea;
+    color: white;
+    font-size: 40px;
+    padding: 13px;
+    border-radius: 50px;
+    border: none;
+    position: fixed;
+    left: 95%;
+}
+.lenstype .lensimg{
+    border: 1px solid gray;
+    height: 210px;
+    width: 90%;
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    margin-left:100px;
+    border: none;
+    
+}
+.lenstype .lensimg .gl1{
+    border: 1px solid wheat;
+    height: 180px;
+    width: 200px;
+    background-color: #53b3ea;
+    border-radius: 9px;
+    border: none;
+    padding:10px ;
+    
+
+}
+.lensimg img{
+    height: 130px;
+    width: 150px;
+    margin-left: 15px;
+    
+    
+}
+.lensimg p{
+    font-family:"Poppins", serif; 
+    font-size: 15px;
+    margin-left: 40px;
+    
+}
+
+
+ .box1{
+    border: 1px solid rgb(8, 0, 0);
+    height: 500px;
+    width: 70%;
+    background-image : url(https://i.pinimg.com/1200x/f2/f7/dd/f2f7dd084a46c83d854d99571317bade.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    position: relative;
+    left: 250px;
+    right: 0px;
+    top: 60px;
+    padding: 80px;
+}
+ .box1 h2{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Poppins", serif;
+    color:rgba(33, 185, 246, 0.9);
+    position: relative;
+    left: 50%;
+    top: 15px;
+
+    
+}
+.box1 p{
+    border: 1px solid black;
+    height: 200px;
+    width: 400px;
+    font-size: 18px;
+    font-family: "Poppins", serif;
+    color: aliceblue;
+    margin-left:52%;
+    margin-top: 30px;
+    border: none;
+}
+.box1 img{
+    height: 150px;
+    width: 100px;
+}
+.products{
+    margin-top: 150px;
+    margin-left: 30px;
+}
+.products .pro-title{
+    text-align: center;
+}
+.pro-title2{
+    text-align: center;
+}
+.productimage{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+ .productimage .images{
+    border: 1px solid gray;
+    height: 310px;
+    width: 370px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px whitesmoke;
+    border: none;
+    
+    
+
+}
+.images  img{
+    height: 150px;
+    width: 250px;
+    margin-left: 20px;
+    padding: 15px 17px;
+
+}
+.productimage p{
+    font-family: "Poppins", serif;
+    font-size: 20px;
+    padding: 5px;
+}
+.productimage .images .rates{
+    margin-left: 240px;
+}
+.productimage .offer {
+    border: 1px solid black;
+    background:linear-gradient(to right,#21a6ed,#cdc794);
+    height: 32px;
+    text-decoration: none;
+    
+    border: none;
+    margin-top: 12px;
+}
+.productimage .offer a{
+    text-decoration: none;
+    color: #000;
+    font-family: "Poppins", serif;
+    font-size: 20px;
+}
+.pro-title2{
+    margin-top: 25px;
+}
+.kid-products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 10px;
+    margin-left: 150px;
+    
+
+}
+.kid-products .kidsimages{
+    border: 1px solid gray;
+    height: 350px;
+    width: 370px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 4px whitesmoke;
+    border: none;
+}
+.kidsimages img{
+    height: 150px;
+    width: 250px;
+    margin-left: 20px;
+    padding: 15px 17px;
+
+}
+.kidsimages p{
+    font-family: "Poppins", serif;
+    font-size: 20px;
+    padding: 5px;
+}
+.kid-products .kidsimages .rates{
+    margin-left: 250px;
+}
+
+.kidsimages .offer{
+    border: 1px solid black;
+    background:linear-gradient(to right,#21a6ed,#cdc794);
+    height: 42px;
+    
+    border: none;
+    margin-top: 30px;
+}
+.extraoffer .extra1{
+    border: 1px solid gray;
+    height: 600px;
+    width: 95%;
+    margin-top: 20px;
+    background-image:url(https://i.pinimg.com/1200x/db/75/79/db75796ece2fa44258b19183527d2e7b.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    border: none;
+    margin-left: 30px;
+    
+} 
+.extraoffer .extra1 p{
+    border: 1px solid black;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    left: 50%;
+    top: 40px;
+    font-family: "Poppins", serif; 
+    font-weight: bold;
+    color:whitesmoke ;
+    font-size:40px;
+    border: none;
+}
+.extraoffer .extra1 button{
+    position: relative;
+    left: 50%;
+    top: 50px;
+    height: 50px;
+    width: 200px;
+    background-color:rgba(252, 244, 244, 0.2);
+    border-radius: 20px;
+    border:0.2px solid white;
+    box-shadow: 4px 0px 4px rgb(178, 205, 225);
+    color:#1b9be1;
+}
+.extra1 button:hover{
+    background-color: white;
+    box-shadow: 10px 5px 5px whitesmoke;
+
+}
+footer{
+    height: 500px;
+    width: 100%;
+    background-color:black;
+    margin-top: 30px;
+    padding:50px;
+}
+.foot{
+    display: flex;
+}
+.foot h5{
+    font-size: 20px;
+    font-family: "Poppins", serif;  
+    color:#53b3ea;
+    margin-left: 7px;
+}
+ .foot a{
+    display:block;
+    text-decoration: none;
+    color: #cdc794;
+    font-size: 18px;
+    font-family: "Poppins", serif; 
+    padding: 7px; 
+
+}
+.foot p{
+    color: #FFF9BF;
+    font-size: 18px;
+    font-family: "Poppins", serif; 
+    padding: 7px;
+
+}
+.foot .Aboutus{
+    margin-left: 100px;
+    
+
+}
+.foot .help{
+    margin-left: 90px;
+}
+.foot .links{
+    margin-left: 100px;
+}
+.media{
+    margin-left: 220px;
+    color: #FFF9BF;
+    font-size: 50px;
+    
+}
+.media i{
+    padding: 10px;
+    color:#FFF9BF;
+    
+}
+.name h1{
+    margin-left: 600px;
+    margin-top: 50px;
+    
+  color: #53b3ea;
+  font-size: 50px;
+}
+.name p{
+    margin-left: 570px;
+    margin-top: 10px;
+    color:gray;
+}
+
+
+    
+
+
+
+
+

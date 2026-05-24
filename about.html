@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Playwrite+HR+Lijeva:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: rgb(253, 252, 252);
+    }
+
+    header {
+        background-color:rgb(34, 186, 247);
+        height: 400px;
+    }
+
+    header h1 {
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 40px;
+        color: whitesmoke;
+    }
+
+    nav {
+        display: flex;
+    }
+
+    nav ul {
+        display: flex;
+        margin-left: 500px;
+        gap: 50px;
+        list-style: none;
+    }
+
+    nav ul li {
+        margin-top: 20px;
+        font-size: 18px;
+        color: aliceblue;
+    }
+
+    ul li a {
+        text-decoration: none;
+        margin-top: 7px;
+        color: white;
+        font-family: "Poppins", serif;
+    }
+
+    ul i {
+        color: white;
+        margin-top: 24px;
+    }
+
+    ul li a:hover {
+        border: 1px solid #FFF9BF;
+        height: 20px;
+        width: 40px;
+    }
+
+    h1 {
+        font-family: "Poppins", serif;
+        font-size: 30px;
+        padding-left: 10px;
+    }
+
+    h3 {
+        font-family: "Poppins", serif;
+        font-size: 30px;
+        padding-left: 10px;
+        margin-top: 10px;
+
+    }
+
+    p {
+        font-family: "Poppins", serif;
+        font-size: 18px;
+        padding-left: 10px;
+        margin-top: 5px;
+
+    }
+
+    footer {
+        height: 500px;
+        width: 100%;
+        background-color: black;
+        margin-top: 30px;
+        padding: 50px;
+    }
+
+    .foot {
+        display: flex;
+    }
+
+    .foot h5 {
+        font-size: 20px;
+        font-family: "Poppins", serif;
+        color: #53b3ea;
+        margin-left: 7px;
+    }
+
+    .foot a {
+        display: block;
+        text-decoration: none;
+        color: #FFF9BF;
+        font-size: 18px;
+        font-family: "Poppins", serif;
+        padding: 7px;
+
+    }
+
+    .foot p {
+        color: #FFF9BF;
+        font-size: 18px;
+        font-family: "Poppins", serif;
+        padding: 7px;
+
+    }
+
+    .foot .Aboutus {
+        margin-left: 100px;
+
+
+    }
+
+    .foot .help {
+        margin-left: 90px;
+    }
+
+    .foot .links {
+        margin-left: 100px;
+    }
+
+    .media {
+        margin-left: 220px;
+        color: #FFF9BF;
+        font-size: 50px;
+
+    }
+
+    .media i {
+        padding: 10px;
+        color: #FFF9BF;
+
+    }
+
+    .name h1 {
+        margin-left: 600px;
+        margin-top: 50px;
+
+        color: #53b3ea;
+        font-size: 50px;
+    }
+
+    .name p {
+        margin-left: 570px;
+        margin-top: 10px;
+        color: gray;
+    }
+
+    header img {
+        height: 300px;
+        width: 470px;
+        margin-left: 550px;
+        margin-top: 10px;
+    }
+
+    .about {
+        margin-top: px;
+        margin-left: 550px;
+    }
+
+    .about .abt {
+        border: 1px solid black;
+        height: 700px;
+        width: 470px;
+        border: none;
+        text-align: justify;
+    }
+
+    .about p::first-letter {
+        color: #53b3ea;
+        font-size: 40px;
+    }
+
+    .about button {
+        height: 50px;
+        width: 200px;
+        margin-top: 30px;
+        margin-left: 150px;
+        background-color:#53b3ea;
+        border: none;
+        border-radius: 15px;
+        color: #FFF9BF;
+
+
+    }
+
+    .about button:hover {
+        color: #53b3ea;
+        background-color: #FFF9BF;
+
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <h1>Lens-Kart</h1>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./login.html">Login</a></li>
+                <li><a href="./branches.html">Branches</a></li>
+                 <li><a href="./product.html">Product</a></li>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </ul>
+        </nav>
+        <img  src="./images/office.jpg" alt="">
+
+    </header>
+    <div class="about">
+
+        <div class="abt">
+            <h3>Lens-Kart</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui saepe culpa, quam esse non iure et modi
+                doloribus?
+                Error eum eveniet dolore. Maxime temporibus sequi totam consequatur ducimus impedit enim placeat! Qui
+                officia
+                assumenda exercitationem eius ad ipsa nemo cupiditate placeat inventore, beatae quisquam doloremque at
+                incidunt,
+                accusamus sit repellat, libero laboriosam molestias. Rerum, id numquam iste quia quaerat labore
+                similique
+                eveniet asperiores ad odit placeat ipsum, excepturi nemo nulla! Laudantium obcaecati dolorum sunt,
+                eveniet,
+                qui
+                velit, eius iusto culpa optio assumenda voluptatibus corporis enim rerum repellat dolore ipsum
+                aspernatur
+                atque
+                a sit aperiam labore iure ex fugit perspiciatis! Vitae! Lorem ipsum dolor sit amet consectetur
+                adipisicing
+                
+                </p>
+            <button>Read More</button>
+        </div>
+
+    </div>
+    <footer>
+        <div class="foot">
+            <div class="services">
+                <h5>Services</h5>
+                <a href="">Store Locator</a>
+                <a href="">Buying Guide</a>
+                <a href="">Frame Size</a>
+            </div>
+            <div class="Aboutus">
+                <h5>About Us</h5>
+                <a href="">Refer and Earn</a>
+                <a href="">Coupon Code</a>
+            </div>
+            <div class="links">
+                <h5>USEFUL LINKS</h5>
+                <a href=""> Store Locations</a>
+                <a href="">Business Partner</a>
+                <a href=""> EyeX Compatible App</a>
+                <a href="">Hearing Aids</a>
+                <a href="">Exercise Your Rights</a>
+                <a href="">Glossary</a>
+            </div>
+            <div class="help">
+                <h5>Help</h5>
+                <p>FAQs</p>
+            </div>
+            <div class="media">
+                <h5>Follow Us On</h5>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+            </div>
+
+        </div>
+        <div class="name">
+            <h1>Lens-Kart</h1>
+            <p>@ 2024 Lenskart all rights Reserved.</p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
